@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, Government Official</h1>
+        <div class="dashboard">
+            <h2>Initiate a New Loan Scheme</h2>
+            <form id="initiate-scheme-form">
+                <input type="text" name="schemeName" placeholder="Scheme Name" required>
+                <input type="text" name="schemeAmount" placeholder="Scheme Amount (ETH)" required>
+                <input type="text" name="expiryDate" placeholder="Expiry Date (Timestamp)" required>
+                <textarea name="description" placeholder="Scheme Description" required></textarea>
+                <button type="submit">Initiate</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

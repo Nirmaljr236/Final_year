@@ -1,0 +1,21 @@
+/project-root
+|-- /public
+|   |-- /css
+|   |   |-- styles.css
+|   |-- /js
+|   |   |-- app.js
+|   |   |-- admin.js
+|   |   |-- notifications.js
+|   |-- index.html
+|   |-- farmer-login.html
+|   |-- government-login.html
+|   |-- farmer-dashboard.html
+|   |-- government-dashboard.html
+|   |-- admin-dashboard.html
+|   |-- notifications.html
+|-- /routes
+|   |-- api.js
+|-- server.js
+|-- package.json
+|-- LoanSystem.sol
+|-- README.md

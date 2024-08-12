@@ -1,0 +1,17 @@
+{
+  "name": "farmers-loan-system",
+  "version": "1.0.0",
+  "description": "A web application for farmers to apply for government loans, utilizing blockchain for transparency.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Chandrabalan",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "web3": "^4.11.1"
+  }
+}
